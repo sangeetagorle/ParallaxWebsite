@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:rgb(128, 117, 117);
+    
+}
+
+.pimg1{
+    background-image: url(1.jfif);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(2.jfif);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(3.jfif);
+    min-height: 400px;
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: rgb(62, 61, 61);
+    color: aliceblue;
+    padding: 4px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: rgb(246, 237, 237);
+    color: rgb(12, 7, 7);
+}
+.section-dark{
+    background-color: black;
+    color: white;
+}
+.heart{
+    color: red;
+    font-size: 38px;
+}
